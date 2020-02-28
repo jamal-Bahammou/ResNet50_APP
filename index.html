@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOG_CAT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input id="image-selector" type="file">
+    <button class="button-1 disabled" type="button" id="predict-button">PREDICT</button>
+    <button class="button-2" type="button" onclick="window.location.reload()">CANCEL</button>
+    <p>INPUT IMAGE :</p>
+    <img id="selected-image" src="" />
+
+    <p id="result">PREDICTIONS RESULT :</p>
+    <div class="loader hide"></div>
+    <p id="name-pred"></p>
+    <p id="accuracy-pred"></p>
+    <p id="images-result">EXAMPLE OF IMAGE WITH THE SAME CLASS :</p>
+    <div class="loader hide"></div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" ></script>
+    <script src="script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+	"workbench.colorCustomizations": {
+		"activityBar.background": "#3B0E7B",
+		"titleBar.activeBackground": "#5314AC",
+		"titleBar.activeForeground": "#FCFAFE"
+	},
+	"python.pythonPath": "/home/jamal-bahammou/anaconda3/envs/BREAST-CANCER/bin/python"
+}
